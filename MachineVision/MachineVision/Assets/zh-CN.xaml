@@ -1,0 +1,29 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="ApplicationName">WPF/HALCON 机器视觉平台</sys:String>
+    <sys:String x:Key="All">全部</sys:String>
+    <sys:String x:Key="TemplateMatch">模板匹配</sys:String>
+    <sys:String x:Key="OutlineMatch">轮廓匹配</sys:String>
+    <sys:String x:Key="ShapeMatch">形状匹配</sys:String>
+    <sys:String x:Key="NccMacth">相似性匹配</sys:String>
+    <sys:String x:Key="DeformationMatch">形变匹配</sys:String>
+    <sys:String x:Key="Measure">比较测量</sys:String>
+    <sys:String x:Key="Caliper">卡尺找圆</sys:String>
+    <sys:String x:Key="Color">颜色检测</sys:String>
+    <sys:String x:Key="GeometricMeasurement">几何测量</sys:String>
+    <sys:String x:Key="Character">字符识别</sys:String>
+    <sys:String x:Key="BarCode">一维码识别</sys:String>
+    <sys:String x:Key="QrCode">二维码识别</sys:String>
+    <sys:String x:Key="Defect">缺陷检测</sys:String>
+    <sys:String x:Key="Difference">检测服务</sys:String>
+    <sys:String x:Key="Deformable">形变模型</sys:String>
+    <sys:String x:Key="Document">学习文档</sys:String>
+    <sys:String x:Key="Setting">系统设置</sys:String>
+
+    <sys:String x:Key="CurrentLanguage">当前语言</sys:String>
+    <sys:String x:Key="Skin">主题</sys:String>
+    <sys:String x:Key="SaveSetting">保存设置</sys:String>
+
+</ResourceDictionary>

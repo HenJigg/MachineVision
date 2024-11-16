@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\readme.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Assets\readme.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FreeSql" Version="3.2.808" />
+    <PackageReference Include="FreeSql.Provider.Sqlite" Version="3.2.808" />
+    <PackageReference Include="MaterialDesignColors" Version="2.1.4" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+    <PackageReference Include="Prism.DryIoc" Version="8.1.97" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MachineVision.Core\MachineVision.Core.csproj" />
+    <ProjectReference Include="..\MachineVision.ObjectMeasure\MachineVision.ObjectMeasure.csproj" />
+    <ProjectReference Include="..\MachineVision.Ocr\MachineVision.Ocr.csproj" />
+    <ProjectReference Include="..\MachineVision.Shared\MachineVision.Shared.csproj" />
+    <ProjectReference Include="..\MachineVision.TemplateMatch\MachineVision.TemplateMatch.csproj" />
+  </ItemGroup>
+
+</Project>

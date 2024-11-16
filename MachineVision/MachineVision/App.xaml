@@ -1,0 +1,26 @@
+﻿<prism:PrismApplication
+    x:Class="MachineVision.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:MachineVision"
+    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+    xmlns:prism="http://prismlibrary.com/">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:BundledTheme
+                    BaseTheme="Dark"
+                    ColorAdjustment="{materialDesign:ColorAdjustment}"
+                    PrimaryColor="DeepPurple"
+                    SecondaryColor="Amber" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MachineVision.Shared;component/Themes/Generic.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MachineVision.Defect;component/Themes/Generic.xaml" />
+
+                <!--  多语言资源  -->
+                <ResourceDictionary Source="pack://application:,,,/MachineVision;component/Assets/zh-CN.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MachineVision;component/Assets/en-US.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</prism:PrismApplication>

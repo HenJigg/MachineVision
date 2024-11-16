@@ -1,0 +1,28 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="ApplicationName">WPF/HALCON MachineVision Platform</sys:String>
+    <sys:String x:Key="All">All</sys:String>
+    <sys:String x:Key="TemplateMatch">TemplateMatch</sys:String>
+    <sys:String x:Key="OutlineMatch">OutlineMatch</sys:String>
+    <sys:String x:Key="ShapeMatch">ShapeMatch</sys:String>
+    <sys:String x:Key="NccMacth">NccMacth</sys:String>
+    <sys:String x:Key="DeformationMatch">DeformationMatch</sys:String>
+    <sys:String x:Key="Measure">Measure</sys:String>
+    <sys:String x:Key="Caliper">Caliper</sys:String>
+    <sys:String x:Key="Color">Color</sys:String>
+    <sys:String x:Key="GeometricMeasurement">GeometricMeasurement</sys:String>
+    <sys:String x:Key="Character">Character</sys:String>
+    <sys:String x:Key="BarCode">BarCode</sys:String>
+    <sys:String x:Key="QrCode">QrCode</sys:String>
+    <sys:String x:Key="Defect">Defect</sys:String>
+    <sys:String x:Key="Difference">Difference</sys:String>
+    <sys:String x:Key="Deformable">Deformable</sys:String>
+    <sys:String x:Key="Document">Document</sys:String>
+    <sys:String x:Key="Setting">Setting</sys:String>
+
+    <sys:String x:Key="CurrentLanguage">CurrentLanguage</sys:String>
+    <sys:String x:Key="Skin">Skin</sys:String>
+    <sys:String x:Key="SaveSetting">SaveSetting</sys:String>
+</ResourceDictionary>
