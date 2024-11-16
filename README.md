@@ -1,2 +1,4 @@
 # MachineVision
-Machine Vision Project Based on HALCON
+该项目是基于WPF开的机器视觉算法平台，内置了多种图像匹配算法，OCR 一维码 / 二维码识别算法，以及形状查找算法。
+
+
